@@ -11,7 +11,7 @@ function fileUpload() {
     console.log("please select file");
   } else {
     console.log(file.name);
-    ibox.value = "uploaded file content";
+    // ibox.value = "uploaded file content";
     file
       .text()
       .then((text) => {
